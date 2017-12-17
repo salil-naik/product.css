@@ -121,7 +121,7 @@ a{text-decoration:none;
 }
 
 /*code*/
-.code-block{padding:20px;
+.p_code-block{padding:20px;
 		width:98%;
 		margin:20px auto;
 		height:auto;
@@ -130,7 +130,7 @@ a{text-decoration:none;
 		box-shadow: 8px 10px 15px -10px rgba(65, 64, 66, 0.7);
 		border-radius:10px;}
 		
-pre.code{padding:20px;
+p_pre.code{padding:20px;
 	min-height:300px;
 	margin:auto;
 	background-color:white;
@@ -167,71 +167,3 @@ footer{height:80px;
 	font-size:1.7vw;
 		}
 		
-
-@media only screen and (max-width:768px) and (min-width:601px)
-{
-	/*Aside*/
-	aside{display:none;}
-	
-	/*Gridbox*/	
-	.grid-box{margin:15px 0px;}
-	[class*="width"]{width:100%;}
-	.grid-container{display:block;}
-	
-	/*main*/
-	[class*="main"]{padding:0px 10px;}
-	.aside-main{width:100%;}
-}
-		
-		
-@media only screen and (max-width:990px) and (min-width:769px)
-{	
-/*Aside*/
-
-/*nav*/
-			
-nav ul li{font-size:3vw;}
-
-/*aside*/
-	aside{width:25%;
-		display:inline-block;}
-		
-	aside ul li{font-size:1.8vw;}
-	
-	.mobilemenu{display:inline-block;}
-	
-/*main*/
-[class*="main"]{padding:0px 10px;}
-
-/*Aside main*/	
-	.aside-main{width:75%;}
-
-/*Gridbox*/	
-	.grid-box{margin:15px 0px;}
-	[class*="width"]{width:100%;}
-	.grid-container{display:block;}
-
-	
-	
-}
-
-@media only screen and (min-width:991px)
-{	
-
-/*nav*/
-			
-nav ul li{font-size:2vw;}
-
-/*Aside*/
-	aside{width:20%;
-			display:block;}
-	aside ul li{font-size:1.2vw;}
-	
-
-/*main*/
-.aside-main{width:80%;}
-
-/*grid-box*/
-	.grid-box{margin:10px;}
-	.grid-container{display:flex;}
-}
