@@ -64,7 +64,7 @@ a{text-decoration:none;
 
 /*put width according to the number of list items*/
 /*End of Navigation*/
-
+.p_part{width:100%;height:500px;}
 
 /*Aside bar*/
 
@@ -130,7 +130,7 @@ a{text-decoration:none;
 		box-shadow: 8px 10px 15px -10px rgba(65, 64, 66, 0.7);
 		border-radius:10px;}
 		
-p_pre.code{padding:20px;
+.p_pre.code{padding:20px;
 	min-height:300px;
 	margin:auto;
 	background-color:white;
