@@ -122,11 +122,10 @@ a{text-decoration:none;
 
 /*code*/
 .p_code-block{padding:20px;
-		width:98%;
+		width:95%;
 		margin:20px auto;
 		height:auto;
 		background-color:#f2f2f2;
-		margin:10px;
 		box-shadow: 8px 10px 15px -10px rgba(65, 64, 66, 0.7);
 		border-radius:10px;}
 		
@@ -136,9 +135,12 @@ a{text-decoration:none;
 	background-color:white;
 	border-left:4px solid green;
 	word-wrap:break-word;
-	font-size:1.4vw;
 			}
 
+.p_attr{color:orange;}
+.p_val{color:green;}
+.p_tag{color:red;}
+.p_id{color:blue;}
 /*Image container and image credits*/
 .imgcontainer:hover .imgcredit{display:inline-block;}
 
