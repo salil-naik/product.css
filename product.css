@@ -60,7 +60,8 @@ a{text-decoration:none;
 	float:left;
 	background-color:inherit;
 	color:inherit;
-			}
+	font-size:22px;
+}
 
 /*put width according to the number of list items*/
 /*End of Navigation*/
@@ -135,10 +136,12 @@ a{text-decoration:none;
 	background-color:white;
 	border-left:4px solid green;
 	word-wrap:break-word;
+	font-size:20px;
+	overflow:auto;
 			}
 
 .p_attr{color:orange;}
-.p_val{color:green;}
+.p_val{color:#70de3d;}
 .p_tag{color:red;}
 .p_id{color:blue;}
 /*Image container and image credits*/
@@ -166,6 +169,5 @@ footer{height:80px;
 	background-color:black;
 	text-align:center;
 	clear:both;
-	font-size:1.7vw;
 		}
 		
