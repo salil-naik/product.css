@@ -65,7 +65,7 @@ a{text-decoration:none;
 
 /*put width according to the number of list items*/
 /*End of Navigation*/
-.p_part{width:100%;height:500px;}
+.p_part{width:100%;min-height:500px;}
 
 /*Aside bar*/
 
