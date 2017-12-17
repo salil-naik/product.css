@@ -142,7 +142,7 @@ a{text-decoration:none;
 
 .p_attr{color:orange;}
 .p_val{color:#70de3d;}
-.p_tag{color:red;}
+.p_tag{color:#d6492f;}
 .p_id{color:blue;}
 /*Image container and image credits*/
 .imgcontainer:hover .imgcredit{display:inline-block;}
