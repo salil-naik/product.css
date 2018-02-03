@@ -6,12 +6,8 @@
 <meta name="theme-color" content="000000">
 <title>product.css</title>
 <style>
-/*Responsive*/
-@media only screen and (max-width:768px)
-{
-	[class*="width-"]{width:100%;float:left;}
-}
-	
+
+
 .width-1{width:8.33%;}
 .width-2{width:16.66%;}
 .width-2-4{width:20%;}
@@ -25,48 +21,35 @@
 .width-10{width:83.33%;}
 .width-11{width:91.66%;}
 .width-12{width:100%;}
-
-
-
 [class*="width-"]{padding:0px;
 		margin:0px;
 		float:left;
 		display:inline-block;
 				}
-
 .fix{position:fixed;}
 body{margin:0px;
   font-family: 'Ubuntu';}
-
 a{text-decoration:none;
 	color:inherit;
 	}
-
 *{box-sizing:border-box;}
-
 .p_shadow{box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .32), 0 6px 8px 0 rgba(0, 0, 0, 0.49);
 }
 .p_shadowt{box-shadow: 12px 15px 15px -10px rgba(65, 64, 66, 0.7);}
-
 .p_content{width:100%;}
-
 /*Navigation Starts*/
 .p_nav{width:100%;
-	height:60px;
+	min-height:60px;/*Change*/
 	z-index:1;
 	display:block;
 }
-
-
-
 .p_nav ul{display:inline-block;
 	margin:0px;
 	padding:0px;
-	height:inherit;
+	/*height:inherit;*/min-height:60px;
 	background-color:inherit;
 	color:inherit;
 	float:left;}
-
 .p_nav ul li{height:inherit;
 	text-align:center;
   line-height:60px;
@@ -80,31 +63,21 @@ a{text-decoration:none;
 .p_nav ul li.logo{font-size:35px;text-align: center;padding:0px 30px;}
 /*put width according to the number of list items*/
 /*End of Navigation*/
-
-
 .p_part{width:100%;min-height:500px;
-    padding:10px;
+    padding:10px;float:left;/*CHANGE*/
         }
-
-
 /*End of Asidebar*/
-
-
 /*main content*/
 [class*="main"]{display:block;
 		width:100%;
 		}
-
 .main{width:100%;}
-
-
 /*Title*/
 .title{font-size:40px;
 	font-weight:bold;
 	text-align:center;
 	display:block;
 }
-
 /*code*/
 .p_code-block{padding:20px;
 		width:95%;
@@ -113,26 +86,22 @@ a{text-decoration:none;
 		background-color:#f2f2f2;
 		box-shadow: 8px 10px 15px -10px rgba(65, 64, 66, 0.7);
 		border-radius:10px;}
-
 .p_pre{padding:20px;
     	min-height:300px;
     	margin:auto;
     	background-color:white;
     	//border-left:4px solid green;
-    	word-wrap:break-word;
+    	/*word-wrap:break-word; CHANGE*/
     //	font-weight:bold;
       font-size:20px;
       overflow:auto;
     			}
-
 .p_attr{color:orange;}
 .p_val{color:#70de3d;}
 .p_tag{color:#d6492f;}
 .p_id{color:blue;}
-
 /*Page*/
 .page{margin:0px 40px;}
-
 /*footer*/
 footer{height:80px;
 	line-height:80px;
@@ -141,7 +110,6 @@ footer{height:80px;
 	text-align:center;
 	clear:both;
 		}
-
 /*new code*/
 header .p_nav{	background-color:black;
 	color:white;}
@@ -152,33 +120,43 @@ text-align: center;
 padding:160px 10px 0px 10px;
 font-size:35px;
 margin:0px;/*by default paragraph has a margin defined*/}
-.download{height:300px;line-height: 300px;text-align: center;font-size:30px;}
+.download{height:300px;line-height: 300px;font-size:30px;float:left;text-align: center;}
 .download a:hover{text-decoration: underline;color:purple}
-
 .p_part.intro{background-color:#222222;
 text-align: center;
 color:white;
 padding:60px 40px;
 font-size:25px;
 line-height: 35px;}
-
 .p_part.exp{background-color:#222222;}
-.p_part.exp div.width-4{background-color: inherit;
+div.p_part.exp div.width-4{background-color: inherit;
 color:white;
 text-align: center;
 padding:20px 40px;
 font-size: 20px;
-line-height: 30px;}
+line-height: 30px;
+margin-bottom:100px;
+}
 .p_part.exp a{color:orange;font-weight:bold}
 .p_part.exp div.width-4 h3{background-color:white;color:black;border-radius: 10px;}
 .p_part.exp i{font-size:80px;}
 .p_part.exp img{width:80px;border:1px solid white;}
-
 .p_pre{background-color:#222222;color:white;}
-
 .demo{float:left;}
 .demo div.width-4{border:1px solid red;}
 //footer span{padding:0px 20px;}
+footer div{background-color:inherit;}
+
+
+/*responsive*/
+@media only screen and (max-width:768px)
+{
+	[class*="width"]{width:100%;float:left;}
+  .page{padding:0px 15px;}
+}
+
+/*temp code*/
+
 </style>
 
 <body>
@@ -206,7 +184,7 @@ line-height: 30px;}
   </header>
 
   <main>
-    <div class="download">
+    <div class="download width-12">
       <a href="https://github.com/salil-naik/product.css/blob/master/product.css">View Code (version 1.0)</a>
     </div>
 
@@ -220,6 +198,7 @@ line-height: 30px;}
     <div class="p_part exp">
 
       <div class="width-4">
+
         <h3>Open Source</h3>
         <p>
           <i class="material-icons">device_hub</i>
@@ -227,9 +206,11 @@ line-height: 30px;}
           product.css is an open source project. Any developer from the
           world can contribute to it.
         </p>
+
       </div>
 
       <div class="width-4">
+
         <h3>MIT LICENSE</h3>
         <p>
           <i class="material-icons">security</i><br>
@@ -238,15 +219,18 @@ line-height: 30px;}
           software without any restrictions.<br>
           <a href="license.html">License</a>
         </p>
+
       </div>
 
       <div class="width-4">
+
         <h3>GitHub</h3>
         <img src="http://letzcode.in/images/gitimg.png"style="background-color:white;border-radius:100%;">
         <p>
         product.css is maintained and developed on GitHub.
         <br><a href="https://github.com/salil-naik/product.css">View on GitHub</a>
         </p>
+
       </div>
 
     </div>
@@ -254,7 +238,7 @@ line-height: 30px;}
     <div class="p_part demo">
       <h2 class="title">Demo 1 - Navigation Bar</h2>
       <div class="width-6" style="padding:20px;">
-      <!--div class="p_code-block"-->
+
         <pre class="p_pre">
 &#60;<span class="p_tag">link</span> <span class="p_attr">href</span>="<span class="p_val">product.css</span>" <span class="p_attr">type</span>="<span class="p_val">text/css</span>" <span class="p_attr">rel</span>="<span class="p_val">stylesheet</span>"&#62;
 
@@ -267,10 +251,10 @@ line-height: 30px;}
   &#60;<span class="p_tag">/ul</span>&#62;
 &#60;<span class="p_tag">/nav</span>&#62;
         </pre>
-      <!--/div-->
+
     </div>
 
-    <div class="width-6">
+    <div class="width-6" style="height:300px;">
       <nav class="p_nav">
         <ul class="width-12">
             <li class="width-3">Menu item</li>
@@ -287,7 +271,7 @@ line-height: 30px;}
     <div class="p_part demo" style="background-color:#f1f1f1;">
       <h2 class="title">Demo 2 - Grid layout</h2>
       <div class="width-6" style="padding:20px;">
-      <!--div class="p_code-block"-->
+
         <pre class="p_pre">
 &#60;<span class="p_tag">link</span> <span class="p_attr">href</span>="<span class="p_val">product.css</span>" <span class="p_attr">type</span>="<span class="p_val">text/css</span>" <span class="p_attr">rel</span>="<span class="p_val">stylesheet</span>"&#62;
 
@@ -312,7 +296,7 @@ line-height: 30px;}
   &#60;<span class="p_tag">/div</span>&#62;
 &#60;<span class="p_tag">/div</span>&#62;
         </pre>
-      <!--/div-->
+
     </div>
 
     <div class="width-6">
@@ -341,11 +325,11 @@ line-height: 30px;}
 </div>
     </div>
 
-    </div>
+  </div>
   </main>
 
   <footer>
-  <div class="width-5"><span class="width-4"><a href="https://github.com/salil-naik/product.css">GitHub</a></span> <span class="width-4">Current Version 1.0</span>  <span class="width-4">Code licensed <a href="license.html">MIT</a></span></div>
+  <div class="width-5"><span class="width-4"><a href="https://github.com/salil-naik/product.css">GitHub</a></span> <span class="width-4">Beta Version 1.0</span>  <span class="width-4">Code licensed under <a href="license.html">MIT</a></span></div>
   <div class="width-7" style="text-align:right;padding-right:40px;">Powered by product.css</div>
   </footer>
 </body>
