@@ -65,7 +65,7 @@ a{text-decoration:none;
 
 /*put width according to the number of list items*/
 /*End of Navigation*/
-.p_part{width:100%;min-height:500px;}
+.p_part{width:100%;min-height:500px;padding:10px;float:left;}
 
 /*Aside bar*/
 
@@ -135,7 +135,7 @@ a{text-decoration:none;
 	margin:auto;
 	background-color:white;
 	border-left:4px solid green;
-	word-wrap:break-word;
+	font-weight:bold;
 	font-size:20px;
 	overflow:auto;
 			}
@@ -171,3 +171,11 @@ footer{height:80px;
 	clear:both;
 		}
 		
+/*responsive*/
+@media only screen and (max-width:768px)
+{
+	[class*="width"]{width:100%;float:left;}
+  .page{padding:0px 15px;}
+/*temp*/
+  nav ul{min-height:60px;}
+}
