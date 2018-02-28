@@ -1,92 +1,9 @@
 <!doctype html>
 <title>product.css | License</title>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link href="http://letzcode.in/product-css/product.css" type="text/css" rel="stylesheet">
+<script src="http://letzcode.in/product-css/product.js"></script>
 <style>
-.width-1{width:8.33%;}
-.width-2{width:16.66%;}
-.width-2-4{width:20%;}
-.width-3{width:25%;}
-.width-4{width:33.33%;}
-.width-5{width:41.66%;}
-.width-6{width:50%;}
-.width-7{width:58.33%;}
-.width-8{width:66.66%;}
-.width-9{width:75%;}
-.width-10{width:83.33%;}
-.width-11{width:91.66%;}
-.width-12{width:100%;}
-[class*="width-"]{padding:0px;
-		margin:0px;
-		float:left;
-		display:inline-block;
-				}
-.fix{position:fixed;}
-body{margin:0px;
-  font-family: 'Ubuntu';}
-a{text-decoration:none;
-	color:inherit;
-	}
-*{box-sizing:border-box;}
-.p_shadow{box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .32), 0 6px 8px 0 rgba(0, 0, 0, 0.49);
-}
-.p_shadowt{box-shadow: 12px 15px 15px -10px rgba(65, 64, 66, 0.7);}
-.p_content{width:100%;}
-/*Navigation Starts*/
-.p_nav{width:100%;
-	height:60px;
-	z-index:1;
-	display:block;
-}
-.p_nav ul{display:inline-block;
-	margin:0px;
-	padding:0px;
-	height:inherit;
-	background-color:inherit;
-	color:inherit;
-	float:left;}
-.p_nav ul li{height:inherit;
-	text-align:center;
-  line-height:60px;
-	list-style-type:none;
-	display:inline-block;
-	float:left;
-	background-color:inherit;
-	color:inherit;
-  font-size:22px;
-			}
-.p_nav ul li.logo{font-size:35px;text-align: center;padding:0px 30px;}
-/*put width according to the number of list items*/
-/*End of Navigation*/
-.p_part{width:100%;min-height:500px;
-    padding:10px;
-        }
-/*End of Asidebar*/
-/*main content*/
-[class*="main"]{display:block;
-		width:100%;
-		}
-.main{width:100%;}
-/*Title*/
-.title{font-size:40px;
-	font-weight:bold;
-	text-align:center;
-	display:block;
-}
-
-.p_attr{color:orange;}
-.p_val{color:#70de3d;}
-.p_tag{color:#d6492f;}
-.p_id{color:blue;}
-/*Page*/
-.page{margin:0px 40px;}
-/*footer*/
-footer{height:80px;
-	line-height:80px;
-	color:white;
-	background-color:black;
-	text-align:center;
-	clear:both;
-		}
 /*new code*/
 header .p_nav{	background-color:black;
 	color:white;}
@@ -105,13 +22,15 @@ margin:0px;/*by default paragraph has a margin defined*/}
       <ul class="width-7">
         <li class="logo"><a href="index.html">product.css</a></li>
       </ul>
-      <ul class="width-5">
-        <li class="width-3"><img src="http://letzcode.in/images/gitimg.png" style="height:30px;margin-top:15px;background-color:white;
-          border-radius:100%;border:1px solid white;" title="github repository"></li>
+      <ul class="width-5" id="p_drpdwn">
+        <li class="width-3"><a href="index.html"><img src="http://letzcode.in/images/gitimg.png" style="height:30px;margin-top:15px;background-color:white;
+		border-radius:100%;border:1px solid white;" title="github repository"></a></li>
         <li class="width-3">Tutorials</li>
         <li class="width-3"><a href="license.html">License</a></li>
         <li class="width-3"><a href="contact.html">Contact</a></li>
       </ul>
+	  
+	    <button onclick="drpdwn()" id="p_menu_button">&9776;</button>
     </nav>
 	</header>
 	<main>
