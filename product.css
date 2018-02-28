@@ -66,7 +66,7 @@ a{text-decoration:none;
 }
 
 /*For Logo*/
-.p_nav ul li.logo{font-size:35px;text-align: center;padding:0px 30px;}
+[class*="p_nav"] ul li.logo{font-size:35px;text-align: center;padding:0px 30px;}
 
 
 /*put width according to the number of list items*/
