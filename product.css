@@ -1,3 +1,4 @@
+
 .width-1{width:8.33%;}
 .width-2{width:16.66%;}
 .width-2-4{width:20%;}
@@ -63,11 +64,13 @@ a{text-decoration:none;
 	color:inherit;
 	font-size:22px;
 	line-height: 60px;
+	position:relative;
+	top:0px;
+	z-index: 3;
 }
 
 /*For Logo*/
 [class*="p_nav"] ul li.logo{font-size:35px;text-align: center;padding:0px 30px;}
-
 
 /*put width according to the number of list items*/
 /*End of Navigation*/
@@ -134,9 +137,10 @@ a{text-decoration:none;
 		height:auto;
 		background-color:#f2f2f2;
 		box-shadow: 8px 10px 15px -10px rgba(65, 64, 66, 0.7);
-		border-radius:10px;}
+		border-radius:10px;
+		overflow:auto;}
 
-.p_pre.code{padding:20px;
+.p_pre{padding:20px;
 	min-height:300px;
 	margin:auto;
 	background-color:white;
