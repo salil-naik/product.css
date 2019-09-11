@@ -10,7 +10,7 @@
 Product.css is a lightweight CSS framework based on <a href="https://foundation.zurb.com" target="_blank">Foundation CSS</a> framework.
 </p>
 
-[![jsDelivr Hits](https://thedesignn.studio/product/jsDelivr.svg)](https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css)
+[![jsDelivr Hits](https://thedesignn.studio/product/jsDelivr-new.svg)](https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css)
 
 
 **Use From the CDN:**
