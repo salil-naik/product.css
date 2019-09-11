@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="http://foundation.zurb.com/">
-    <img src="https://thedesignn.studio/product/product-new-logo.svg" alt="product.css logo" width="448px" style="max-width:100%;"/>
+    <img src="https://thedesignn.studio/product/product-logo.svg" alt="product.css logo" width="448px" style="max-width:100%;"/>
   </a>
 </p>
 
