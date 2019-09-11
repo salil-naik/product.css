@@ -13,7 +13,7 @@ Product.css is a lightweight CSS framework based on <a href="https://foundation.
 [![jsDelivr Hits](https://thedesignn.studio/product/jsDelivr-new.svg)](https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css)
 
 
-**Use From the CDN:**
+## Use From the CDN:
 
 ```html
 <link href="https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css" rel="stylesheet" type="text/css" />
@@ -53,7 +53,7 @@ Some of the key features of product.css are:
 ### Representation
 
 <img src="https://thedesignn.studio/product/grid-exp.png" alt="grid explaination" width="100%">
-
+<br><br>
 <p>Example below shows the usage of the grid system</p>
 
-<img src="https://thedesignn.studio/product/grid-with-content.png" alt="grid explaination" width="100%">
+<img src="https://thedesignn.studio/product/grid-with-content.png" alt="grid explaination" width="100%" style="border:1px solid black">
