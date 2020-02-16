@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="http://foundation.zurb.com/">
-    <img src="https://thedesignn.studio/product/product-logo.svg" alt="product.css logo" width="448px" style="max-width:100%;"/>
+    <img src="images/product-logo.svg" alt="product.css logo" width="448px" style="max-width:100%;"/>
   </a>
 </p>
 
@@ -10,7 +10,7 @@
 Product.css is a lightweight CSS framework based on <a href="https://foundation.zurb.com" target="_blank">Foundation CSS</a> framework.
 </p>
 
-[![jsDelivr Hits](https://thedesignn.studio/product/jsDelivr-new.svg)](https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css)
+[![jsDelivr Hits](images/jsDelivr-new.svg)](https://cdn.jsdelivr.net/gh/salil-naik/product.css/v-2.0/product.min.css)
 
 
 ## Use From the CDN:
@@ -52,8 +52,8 @@ Some of the key features of product.css are:
 
 ### Representation
 
-<img src="https://thedesignn.studio/product/grid-exp.png" alt="grid explaination" width="100%">
+<img src="images/grid-exp.png" alt="grid explaination" width="100%">
 <br><br>
 <p>Example below shows the usage of the grid system</p>
 
-<img src="https://thedesignn.studio/product/grid-with-content.png" alt="grid explaination" width="100%" style="border:1px solid black">
+<img src="images/grid-with-content.png" alt="grid explaination" width="100%" style="border:1px solid black">
